@@ -7,6 +7,7 @@ export type ThemeColor =
     | "cyan-400"    // About (#58E0E8)
     | "purple-500"  // Projects (#8757FF)
     | "blue-500"    // Testimonials (#3EA8FF)
+    | "emerald-400" // Gallery (#10B981)
     | "orange-500"; // Contact (#FF6B35)
 
 interface ThemeContextType {
@@ -25,6 +26,7 @@ export const ThemeProvider = ({ children }: { children: ReactNode }) => {
             case "cyan-400": return "#58E0E8";
             case "purple-500": return "#8757FF";
             case "blue-500": return "#3EA8FF";
+            case "emerald-400": return "#10B981";
             case "orange-500": return "#FF6B35";
             default: return "#FFFFFF";
         }

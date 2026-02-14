@@ -156,7 +156,7 @@ export default function Footer() {
                 {/* Section C: Copyright */}
                 <div className="text-center">
                     <p className="text-gray-600 text-xs tracking-wider flex items-center justify-center gap-1 animate-fade-in">
-                        © 2026 HARDIK. Built with React, GSAP, and questionable amounts of caffeine
+                        © 2026 HARDIK TIWARI. Built with React, GSAP, and questionable amounts of caffeine
                         <span className="text-lg leading-none" style={{ textShadow: `0 0 10px ${accentColor}` }}>
                             ☕
                         </span>
